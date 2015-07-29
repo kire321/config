@@ -1,0 +1,4 @@
+'atom-text-editor':
+  'ctrl-p': 'settings-view:install-packages-and-themes'
+  'alt-g': 'project-find:search-under-cursor'
+  'alt-r': 'revert-buffer:revert'

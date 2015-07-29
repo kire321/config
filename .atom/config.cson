@@ -1,0 +1,31 @@
+"*":
+  "exception-reporting":
+    userId: "f0e805f1-b5d5-6128-e136-a3eec2393797"
+  welcome:
+    showOnStartup: false
+  core:
+    themes: [
+      "atom-light-ui"
+      "atom-light-syntax"
+    ]
+    disabledPackages: [
+      "enhanced-tabs"
+      "ctrl-last-tab"
+    ]
+    ignoredNames: [
+      ".git"
+      "*jquery*"
+      "node_modules"
+    ]
+  autosave:
+    enabled: true
+  "git-diff":
+    showIconsInEditorGutter: true
+  tabs:
+    enableVcsColoring: true
+  editor:
+    invisibles: {}
+  "language-babel":
+    babelStage: 1
+    suppressTranspileOnSaveMessages: true
+  "fuzzy-finder": {}

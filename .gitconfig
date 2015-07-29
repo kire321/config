@@ -1,0 +1,26 @@
+[user]
+	email = kire321@gmail.com
+[alias]
+	s = status
+	cma = commit -am
+	cm = commit -m
+	pl = pull --rebase
+	rb = rebase
+	co = checkout
+	di = diff -w
+	cp = cherry-pick
+	amd = commit --amend
+	dt = difftool
+[push]
+	default = current
+[diff]
+	tool = vimdiff
+[merge]
+	tool = vimdiff
+	conflictstyle = diff3
+[difftool]
+	prompt = false
+[mergetool]
+	prompt = false
+[core]
+	excludesfile = /home/erik/config/.gitignore_global
